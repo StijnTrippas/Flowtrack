@@ -1,0 +1,96 @@
+@import url('reset.css');
+
+html, body{
+	height: 100%;
+}
+
+body,
+.pure-g [class *= "pure-u"],
+.pure-g-r [class *= "pure-u"] {
+    font-family: 'Proxima Nova', 'Helvetica', 'Arial', 'sans-serif';
+	font-weight: 100;
+	font-size: 16px;
+}
+
+h2,
+figcaption,
+h3,
+h4,
+p{
+	font-family: 'Proxima Nova', 'Helvetica', 'Arial', 'sans-serif';
+	text-align: center;
+}
+
+h2,
+figcaption,
+h3,
+h4{
+	font-size: 72px;
+	font-weight: bold;
+	line-height: 
+}
+
+p{
+	font-size: 16px;
+	font-weight: 100;
+	width: 100%;
+}
+
+figcaption{
+	margin: -550px 0 480px;
+}
+
+article{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.pure-g-r{
+	letter-spacing: 0;
+}
+
+.pure-g-r > img{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.box{
+	padding: 1em;
+}
+
+.curtains{
+	width: 100%;
+}
+
+.curtainTwo{
+	height: 2195px;
+}
+
+.flowtracksurf{
+	height: 200px;
+	background-color: #FF7F66;
+}
+
+.curtainThree .locations img{
+	margin: 0 auto;
+}
+
+.curtainFive{
+	margin: 0 auto;
+	text-align: center;
+}
+
+.curtainFive article p{
+	text-align: left;
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	height: 100px;
+	background-color: #000;
+	color: #fff;
+}
